@@ -99,7 +99,7 @@ Though I don't see any use case at Finanzcheck to care about this.*
 
 ## Sure you can use Treeshaking?
   * don't export/import objects => not static => no analysis => no code elimination!
-  * don't mix `module.export`and `import {} from ''` => not static => no analysis => no code elimination!
+  * don't mix `module.export`and `import {} from ''` => not static => no analysis => no code elimination!
   * don't configure you're loader/bundler to compile to modules! 
     * use e.g. `presets: ['env', { modules: false } ]`
     * Rollup && Webpack >=4.0.0 are doing a great job of tree shaking

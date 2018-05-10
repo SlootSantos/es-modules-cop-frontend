@@ -1,2 +1,2 @@
-export const foo = () => console.log('FOO');
-export const bar = () => console.log('BAR');
+export const fooESM = () => console.log('FOO_ESM');
+export const barESM = () => console.log('BAR_ESM');

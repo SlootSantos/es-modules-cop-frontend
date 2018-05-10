@@ -4,6 +4,7 @@
   "description": "ES Modules show case for Finanzcheck COP-Frontend",
   "main": "index.js",
   "scripts": {
+    "build": "webpack && node findFunctionInBundle",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "chalk": "^2.4.1",
     "webpack": "^4.8.1",
     "webpack-cli": "^2.1.3"
   }

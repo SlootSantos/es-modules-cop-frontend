@@ -1,2 +1,5 @@
-import { foo } from './module_one';
+import { fooESM } from './module_one';
 const { fooCJS } = require('./module_two');
+
+fooESM();
+fooCJS();

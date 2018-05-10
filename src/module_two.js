@@ -1,2 +1,2 @@
-exports.fooCJS = () => console.log('FOOCJS');
-exports.barCJS = () => console.log('BARCJS');
+exports.fooCJS = () => console.log('FOO_CJS');
+exports.barCJS = () => console.log('BAR_CJS');

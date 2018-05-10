@@ -5,8 +5,8 @@ ES Modules show case for Finanzcheck COP-Frontend
 ### Demo
 
 * clone this repository
-* npm i
-* npm run start
+* `$ npm i`
+* `$ npm run start`
 * => all modules exported/imported using ESM are **excluded** if not explicitly imported
 * => all modules exported/imported using cjs or esm/cjs are included, no matter whether or not they are explicitly imported
 

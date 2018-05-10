@@ -26,7 +26,7 @@ fn('test'); // 'test'
 
 
 #### ES Modules
-ES Modules are actually **native** to JavaScript! 
+ES Modules are actually **native** to JavaScript! (introduced with ECMAScript2015)
 ```
 // exporting
 // named export

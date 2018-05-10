@@ -95,7 +95,7 @@ Hence we (or better said our bundler of choice) is actually able to figure out w
 **That's what is called Treeshaking**
 
 *Also you have to do property lookup on dynamic imports `const x = require('xy'); x.property(); <= property lookup` because, well, they are dynamic. Whereas static imports can be optimized since they're static. Simple, right?
-Though I don't see any use case at Finanzcheck to care about this.*
+Though for now I don't see any use case at Finanzcheck needing to care about this "performance hit".*
 
 ## Sure you can use Treeshaking?
   * don't export/import objects => not static => no analysis => no code elimination!

@@ -36,12 +36,15 @@ export default fn = noop => noop;
 
 // importing
 // named import
-import { fn } from './module'; // this is NOT destructuring!! { a: { b: { c } } } is invalid!
+import { fn } from './module';
 fn('test'); // 'test'
 
 //default export
 import anyFn from './module';
 anyFn('test'); // 'test'
+
+Keep in mind that import "{ fn } from 'module';" this is NOT destructuring!!
+import { a: { b: { c } } } from 'module' is invalid syntax!
 ```
 
 ES Modules are passing bindings not values!!

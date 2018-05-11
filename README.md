@@ -6,7 +6,7 @@ ES Modules show case for Finanzcheck COP-Frontend
 
 * clone this repository
 * `$ npm i`
-* `$ npm run start`
+* `$ npm run build`
 * => all modules exported/imported using ESM are **excluded** if not explicitly imported
 * => all modules exported/imported using cjs or esm/cjs are included, no matter whether or not they are explicitly imported
 
@@ -54,7 +54,7 @@ export default fn = noop => noop;
 import { fn } from './module';
 fn('test'); // 'test'
 
-//default export
+//default import
 import anyFn from './module';
 anyFn('test'); // 'test'
 
@@ -95,7 +95,7 @@ Consider following:
 // therefore we'll be including both even though one will never be used
 let lib;
 if (Math.random() > .5) {
-    mlib = require('./module1');
+    lib = require('./module1');
 } else {
     lib = require('./module2');
 }

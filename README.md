@@ -128,4 +128,3 @@ Though for now I don't see any use case at Finanzcheck needing to care about thi
   * use e.g. `presets: ['env', { modules: false } ]`
   * Rollup && Webpack >=4.0.0 are doing a great job of tree shaking
 * when building a library, provide an es_module compatible entry
-.
